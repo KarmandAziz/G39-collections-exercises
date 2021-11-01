@@ -171,6 +171,24 @@ public class Exercises {
 
     }
 
+    public void exercise12(){
+
+        HashMap<Integer, Car> cars = new HashMap<>();
+
+        cars.put(1,new Car(1, "Volvo", "XC60"));
+        cars.put(2,new Car(2, "Audi", "RS7"));
+        cars.put(3,new Car(3,"Mercedes", "GLC"));
+
+
+        System.out.println(cars.get(1).getBrand());
+        System.out.println(cars.get(2).getBrand());
+        System.out.println(cars.get(3).getBrand());
+
+
+
+
+    }
+
 
 
 
