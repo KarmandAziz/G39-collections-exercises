@@ -232,6 +232,27 @@ public class Exercises {
 
     }
 
+    public void challenge3(){
+
+        List<SuperHero> hero = new ArrayList<>(Arrays.asList(
+                new SuperHero(1,"Karmand", 27),
+                new SuperHero(2, "Arne", 55),
+                new SuperHero(3, "Sven", 65),
+                new SuperHero(3, "Matilda", 23)
+        ));
+
+        hero.sort(Comparator.comparing(SuperHero::getAge));
+        loop(hero);
+
+
+
+
+    }
+    public void loop(List<SuperHero> superHumanList){
+        for(SuperHero superHero : superHumanList){
+            System.out.println(superHero);
+        }
+    }
 
 
 
