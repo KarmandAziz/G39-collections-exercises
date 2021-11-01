@@ -189,6 +189,37 @@ public class Exercises {
 
     }
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    public void challenge1(){
+        Set<String> wholeWeek = new HashSet<>();
+        wholeWeek.add("Monday");
+        wholeWeek.add("Tuesday");
+        wholeWeek.add("Wednesday");
+        wholeWeek.add("Thursday");
+        wholeWeek.add("Friday");
+        wholeWeek.add("Saturday");
+        wholeWeek.add("Sunday");
+
+        Set<String> weekend = new HashSet<>();
+        weekend.add("Saturday");
+        weekend.add("Sunday");
+
+
+        wholeWeek.retainAll(weekend);
+
+        System.out.println(wholeWeek);
+
+    }
+
 
 
 
