@@ -1,7 +1,6 @@
 package org.example.exercises;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class Exercises {
 
@@ -138,6 +137,21 @@ public class Exercises {
 
     }
 
+    public void exercise8(){
+        HashSet<String> names = new HashSet<>();
+        names.add("Karmand");
+        names.add("Nils");
+        names.add("Ulf");
+        names.add("Hanna");
+        names.add("Amanda");
+        names.add("Patricia");
+
+        TreeSet<String> namesSorted = new TreeSet<>(names);
+
+        //TreeSet is sorted
+
+        System.out.println(namesSorted);
+    }
 
 
 
