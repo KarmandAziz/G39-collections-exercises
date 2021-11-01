@@ -1,8 +1,7 @@
 package org.example.exercises;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Exercises {
 
@@ -82,9 +81,41 @@ public class Exercises {
         week.add("Sunday");
 
         ArrayList<String> newWeek = new ArrayList<>(week.subList(0,3));
-        ;
+
 
         System.out.println(newWeek);
+
+    }
+
+    public void exercise5(){
+
+        HashSet<String> week = new HashSet<>();
+        week.add("Monday");
+        week.add("Tuesday");
+        week.add("Wednesday");
+        week.add("Thursday");
+        week.add("Friday");
+        week.add("Saturday");
+        week.add("Sunday");
+
+        System.out.println(week);
+    }
+
+    public void exercise6(){
+
+        HashSet<String> week = new HashSet<>();
+        week.add("Monday");
+        week.add("Tuesday");
+        week.add("Wednesday");
+        week.add("Thursday");
+        week.add("Friday");
+        week.add("Saturday");
+        week.add("Sunday");
+
+        ArrayList<String> weekArrayList
+                =  new ArrayList<>(week);
+
+        System.out.println(weekArrayList);
 
     }
 
