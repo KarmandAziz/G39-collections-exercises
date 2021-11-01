@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Exercises {
 
-    public void example1(){
+    public void exercise1(){
 
         ArrayList<String> week = new ArrayList<>();
         week.add("Monday");
@@ -22,7 +22,7 @@ public class Exercises {
 
     }
 
-    public void example2(){
+    public void exercise2(){
 
         ArrayList<String> week = new ArrayList<>();
         week.add("Monday");
@@ -38,7 +38,7 @@ public class Exercises {
 
         }
     }
-    public void example2a(){
+    public void exercise2a(){
         ArrayList<String> week = new ArrayList<>();
         week.add("Monday");
         week.add("Tuesday");
@@ -54,7 +54,7 @@ public class Exercises {
         }
     }
 
-    public void example3(){
+    public void exercise3(){
         ArrayList<String> week = new ArrayList<>();
         week.add("Monday");
         week.add("Tuesday");
@@ -68,6 +68,23 @@ public class Exercises {
         System.out.println(week);
 
 
+
+    }
+
+    public void exercise4(){
+        ArrayList<String> week = new ArrayList<>();
+        week.add("Monday");
+        week.add("Tuesday");
+        week.add("Wednesday");
+        week.add("Thursday");
+        week.add("Friday");
+        week.add("Saturday");
+        week.add("Sunday");
+
+        ArrayList<String> newWeek = new ArrayList<>(week.subList(0,3));
+        ;
+
+        System.out.println(newWeek);
 
     }
 
