@@ -13,7 +13,7 @@ public class App
 
         Exercises exercise = new Exercises();
 
-       exercise.exercise8();
+       exercise.exercise9to11();
 
 
 

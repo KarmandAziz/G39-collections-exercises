@@ -153,6 +153,24 @@ public class Exercises {
         System.out.println(namesSorted);
     }
 
+    public void exercise9to11(){
+
+        HashMap<Integer, String> cars = new HashMap<>();
+
+        cars.put(1,"Mercedes");
+        cars.put(2, "Volkswagen");
+        cars.put(3, "Bentley");
+        cars.put(4, "Ford");
+        cars.put(5, "Volvo");
+        //exercise9
+        System.out.println(cars);
+        //exercise10
+        System.out.println(cars.values());
+        //exercise11
+        System.out.println(cars.keySet());
+
+    }
+
 
 
 
