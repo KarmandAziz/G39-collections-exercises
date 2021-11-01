@@ -119,6 +119,25 @@ public class Exercises {
 
     }
 
+    public void exercise7(){
+
+        HashSet<String> names = new HashSet<>();
+        names.add("Karmand");
+        names.add("Nils");
+        names.add("Ulf");
+        names.add("Hanna");
+        names.add("Amanda");
+        names.add("Patricia");
+
+        ArrayList<String> namesArrayList = new ArrayList<>(names);
+
+        Collections.sort(namesArrayList);
+
+        System.out.println(namesArrayList);
+
+
+    }
+
 
 
 
