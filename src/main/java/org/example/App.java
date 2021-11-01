@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.exercises.Exer1;
+import org.example.exercises.Exercises;
 
 /**
  * Hello world!
@@ -11,9 +11,9 @@ public class App
     public static void main( String[] args )
     {
 
-        Exer1 exercise = new Exer1();
+        Exercises exercise = new Exercises();
 
-       exercise.example1();
+       exercise.example2();
 
 
 
