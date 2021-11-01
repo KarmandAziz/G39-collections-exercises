@@ -220,6 +220,18 @@ public class Exercises {
 
     }
 
+    public void challenge2(){
+
+        HashMap<String, String> user = new HashMap<>();
+        user.put("Karmand94@gmail.com", "Karmand");
+
+        HashSet<Set<String>> users = new HashSet<>();
+        users.add(user.keySet());
+
+        System.out.println(users);
+
+    }
+
 
 
 
